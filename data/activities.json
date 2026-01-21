@@ -1,0 +1,2696 @@
+[
+  {
+    "id": 1,
+    "activity_type": "fitness",
+    "name": "Morning Run",
+    "priority": 6,
+    "frequency": "every other day",
+    "details": "30-45 min cardio, HR 120-140 bpm",
+    "facilitator": "Physical Therapist",
+    "location": "Park",
+    "remote_capable": false,
+    "prep_required": "Warm-up for 5-10 minutes",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 2,
+    "activity_type": "fitness",
+    "name": "Weight Training",
+    "priority": 5,
+    "frequency": "every other day",
+    "details": "3 sets x 12 reps, progressive overload",
+    "facilitator": "Personal Trainer",
+    "location": "Gym",
+    "remote_capable": true,
+    "prep_required": "Light snack 1 hour before",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 3,
+    "activity_type": "fitness",
+    "name": "Yoga Flow",
+    "priority": 1,
+    "frequency": "6 times a week",
+    "details": "60 min vinyasa, focus on flexibility",
+    "facilitator": "Self",
+    "location": "Studio",
+    "remote_capable": true,
+    "prep_required": "Light snack 1 hour before",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 4,
+    "activity_type": "fitness",
+    "name": "Swimming",
+    "priority": 2,
+    "frequency": "daily",
+    "details": "45 min laps, technique focus",
+    "facilitator": "Yoga Instructor",
+    "location": "Pool",
+    "remote_capable": true,
+    "prep_required": "Warm-up for 5-10 minutes",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 5,
+    "activity_type": "fitness",
+    "name": "HIIT Workout",
+    "priority": 5,
+    "frequency": "twice a week",
+    "details": "20 min high intensity intervals",
+    "facilitator": "Yoga Instructor",
+    "location": "Gym",
+    "remote_capable": false,
+    "prep_required": "Check equipment availability",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 6,
+    "activity_type": "fitness",
+    "name": "Pilates",
+    "priority": 7,
+    "frequency": "5 times a week",
+    "details": "Core strengthening, 45 minutes",
+    "facilitator": "Fitness Coach",
+    "location": "Studio",
+    "remote_capable": true,
+    "prep_required": "Check equipment availability",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 7,
+    "activity_type": "fitness",
+    "name": "Cycling",
+    "priority": 6,
+    "frequency": "6 times a week",
+    "details": "60 min endurance ride",
+    "facilitator": "Fitness Coach",
+    "location": "Outdoors",
+    "remote_capable": false,
+    "prep_required": "Check equipment availability",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 8,
+    "activity_type": "fitness",
+    "name": "Stretching Session",
+    "priority": 1,
+    "frequency": "6 times a week",
+    "details": "30 min full body flexibility",
+    "facilitator": "Physical Therapist",
+    "location": "Home",
+    "remote_capable": true,
+    "prep_required": "Warm-up for 5-10 minutes",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 9,
+    "activity_type": "fitness",
+    "name": "Balance Training",
+    "priority": 1,
+    "frequency": "3 times a week",
+    "details": "Stability and coordination work",
+    "facilitator": "Fitness Coach",
+    "location": "Gym",
+    "remote_capable": true,
+    "prep_required": "Light snack 1 hour before",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 10,
+    "activity_type": "fitness",
+    "name": "Eye Exercises",
+    "priority": 7,
+    "frequency": "3 times a week",
+    "details": "Vision therapy, 15 minutes",
+    "facilitator": "Personal Trainer",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Prepare workout clothes and water",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 11,
+    "activity_type": "fitness",
+    "name": "Walking Meditation",
+    "priority": 2,
+    "frequency": "4 times a week",
+    "details": "Mindful walking, 30 minutes",
+    "facilitator": "Personal Trainer",
+    "location": "Park",
+    "remote_capable": false,
+    "prep_required": "Light snack 1 hour before",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 12,
+    "activity_type": "fitness",
+    "name": "Resistance Band Training",
+    "priority": 8,
+    "frequency": "3 times a week",
+    "details": "Full body resistance workout",
+    "facilitator": "Physical Therapist",
+    "location": "Home",
+    "remote_capable": true,
+    "prep_required": "Warm-up for 5-10 minutes",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 13,
+    "activity_type": "fitness",
+    "name": "CrossFit WOD",
+    "priority": 7,
+    "frequency": "twice a week",
+    "details": "Workout of the day, varied movements",
+    "facilitator": "Yoga Instructor",
+    "location": "CrossFit Box",
+    "remote_capable": false,
+    "prep_required": "Prepare workout clothes and water",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 14,
+    "activity_type": "fitness",
+    "name": "Tai Chi",
+    "priority": 2,
+    "frequency": "twice a week",
+    "details": "Slow controlled movements, balance",
+    "facilitator": "Yoga Instructor",
+    "location": "Park",
+    "remote_capable": false,
+    "prep_required": "Check equipment availability",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 15,
+    "activity_type": "fitness",
+    "name": "Dance Fitness",
+    "priority": 7,
+    "frequency": "6 times a week",
+    "details": "Cardio through dance, 45 minutes",
+    "facilitator": "Physical Therapist",
+    "location": "Studio",
+    "remote_capable": true,
+    "prep_required": "Check equipment availability",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 16,
+    "activity_type": "fitness",
+    "name": "Rock Climbing",
+    "priority": 3,
+    "frequency": "twice a week",
+    "details": "Strength and problem solving",
+    "facilitator": "Self",
+    "location": "Climbing Gym",
+    "remote_capable": true,
+    "prep_required": "Light snack 1 hour before",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 17,
+    "activity_type": "fitness",
+    "name": "Martial Arts",
+    "priority": 2,
+    "frequency": "3 times a week",
+    "details": "Self-defense and fitness",
+    "facilitator": "Group Instructor",
+    "location": "Dojo",
+    "remote_capable": true,
+    "prep_required": "Check equipment availability",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 18,
+    "activity_type": "fitness",
+    "name": "Aqua Aerobics",
+    "priority": 6,
+    "frequency": "4 times a week",
+    "details": "Low impact water exercises",
+    "facilitator": "Physical Therapist",
+    "location": "Pool",
+    "remote_capable": true,
+    "prep_required": "Light snack 1 hour before",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 19,
+    "activity_type": "fitness",
+    "name": "Functional Movement",
+    "priority": 7,
+    "frequency": "6 times a week",
+    "details": "Daily life movement patterns",
+    "facilitator": "Fitness Coach",
+    "location": "Gym",
+    "remote_capable": false,
+    "prep_required": "Prepare workout clothes and water",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 20,
+    "activity_type": "fitness",
+    "name": "Foam Rolling",
+    "priority": 2,
+    "frequency": "every other day",
+    "details": "Myofascial release, recovery",
+    "facilitator": "Fitness Coach",
+    "location": "Home",
+    "remote_capable": true,
+    "prep_required": "Prepare workout clothes and water",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 21,
+    "activity_type": "fitness",
+    "name": "Kettlebell Training",
+    "priority": 8,
+    "frequency": "twice a week",
+    "details": "Compound movements, strength",
+    "facilitator": "Personal Trainer",
+    "location": "Gym",
+    "remote_capable": true,
+    "prep_required": "Warm-up for 5-10 minutes",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 22,
+    "activity_type": "fitness",
+    "name": "Barre Class",
+    "priority": 8,
+    "frequency": "4 times a week",
+    "details": "Ballet-inspired fitness",
+    "facilitator": "Physical Therapist",
+    "location": "Studio",
+    "remote_capable": true,
+    "prep_required": "Check equipment availability",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 23,
+    "activity_type": "fitness",
+    "name": "Spin Class",
+    "priority": 2,
+    "frequency": "4 times a week",
+    "details": "Indoor cycling with music",
+    "facilitator": "Self",
+    "location": "Gym",
+    "remote_capable": false,
+    "prep_required": "Check equipment availability",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 24,
+    "activity_type": "fitness",
+    "name": "TRX Suspension",
+    "priority": 2,
+    "frequency": "3 times a week",
+    "details": "Bodyweight resistance training",
+    "facilitator": "Self",
+    "location": "Gym",
+    "remote_capable": true,
+    "prep_required": "Check equipment availability",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 25,
+    "activity_type": "fitness",
+    "name": "Breathwork Session",
+    "priority": 4,
+    "frequency": "twice a week",
+    "details": "Controlled breathing exercises",
+    "facilitator": "Fitness Coach",
+    "location": "Home",
+    "remote_capable": true,
+    "prep_required": "Light snack 1 hour before",
+    "backup_activities": [
+      "Bodyweight exercises",
+      "Stretching routine",
+      "Walking"
+    ],
+    "skip_adjustments": "Add 15 minutes to next session",
+    "metrics": [
+      "Heart Rate",
+      "Duration",
+      "Calories",
+      "Performance Score"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 26,
+    "activity_type": "food",
+    "name": "Mediterranean Breakfast",
+    "priority": 1,
+    "frequency": "every meal",
+    "details": "High omega-3, antioxidants, 400-500 cal",
+    "facilitator": "Meal Prep Service",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Defrost proteins overnight",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 15
+  },
+  {
+    "id": 27,
+    "activity_type": "food",
+    "name": "Protein Power Bowl",
+    "priority": 5,
+    "frequency": "every meal",
+    "details": "35g protein minimum, vegetables",
+    "facilitator": "Chef",
+    "location": "Kitchen",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 28,
+    "activity_type": "food",
+    "name": "Anti-inflammatory Smoothie",
+    "priority": 3,
+    "frequency": "daily",
+    "details": "Berries, spinach, turmeric, ginger",
+    "facilitator": "Family",
+    "location": "Office",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 29,
+    "activity_type": "food",
+    "name": "Quinoa Buddha Bowl",
+    "priority": 5,
+    "frequency": "daily",
+    "details": "Complete proteins, fiber-rich",
+    "facilitator": "Chef",
+    "location": "Kitchen",
+    "remote_capable": false,
+    "prep_required": "Meal prep on Sunday",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 15
+  },
+  {
+    "id": 30,
+    "activity_type": "food",
+    "name": "Wild Salmon Dinner",
+    "priority": 3,
+    "frequency": "twice daily",
+    "details": "Omega-3 rich, with vegetables",
+    "facilitator": "Meal Prep Service",
+    "location": "Kitchen",
+    "remote_capable": false,
+    "prep_required": "Shop for fresh ingredients",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 15
+  },
+  {
+    "id": 31,
+    "activity_type": "food",
+    "name": "Green Detox Juice",
+    "priority": 3,
+    "frequency": "twice daily",
+    "details": "Kale, cucumber, celery, lemon",
+    "facilitator": "Nutritionist",
+    "location": "Restaurant",
+    "remote_capable": false,
+    "prep_required": "Meal prep on Sunday",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 15
+  },
+  {
+    "id": 32,
+    "activity_type": "food",
+    "name": "Chia Seed Pudding",
+    "priority": 3,
+    "frequency": "5 times a week",
+    "details": "High fiber, omega-3, probiotics",
+    "facilitator": "Meal Prep Service",
+    "location": "Kitchen",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 15
+  },
+  {
+    "id": 33,
+    "activity_type": "food",
+    "name": "Bone Broth",
+    "priority": 1,
+    "frequency": "every meal",
+    "details": "Collagen, minerals, gut health",
+    "facilitator": "Self",
+    "location": "Office",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 34,
+    "activity_type": "food",
+    "name": "Fermented Foods",
+    "priority": 2,
+    "frequency": "weekly",
+    "details": "Kimchi, sauerkraut, gut microbiome",
+    "facilitator": "Meal Prep Service",
+    "location": "Kitchen",
+    "remote_capable": false,
+    "prep_required": "Defrost proteins overnight",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 35,
+    "activity_type": "food",
+    "name": "Nuts and Seeds Mix",
+    "priority": 3,
+    "frequency": "twice a week",
+    "details": "Healthy fats, vitamin E, minerals",
+    "facilitator": "Chef",
+    "location": "Restaurant",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 36,
+    "activity_type": "food",
+    "name": "Herbal Tea Blend",
+    "priority": 5,
+    "frequency": "daily",
+    "details": "Adaptogenic herbs, caffeine-free",
+    "facilitator": "Chef",
+    "location": "Restaurant",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 37,
+    "activity_type": "food",
+    "name": "Avocado Toast",
+    "priority": 3,
+    "frequency": "every meal",
+    "details": "Healthy fats, fiber, whole grains",
+    "facilitator": "Chef",
+    "location": "Restaurant",
+    "remote_capable": false,
+    "prep_required": "Defrost proteins overnight",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 38,
+    "activity_type": "food",
+    "name": "Greek Yogurt Parfait",
+    "priority": 6,
+    "frequency": "every meal",
+    "details": "Probiotics, protein, antioxidants",
+    "facilitator": "Chef",
+    "location": "Office",
+    "remote_capable": false,
+    "prep_required": "Defrost proteins overnight",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 39,
+    "activity_type": "food",
+    "name": "Sweet Potato Bowl",
+    "priority": 6,
+    "frequency": "every meal",
+    "details": "Beta-carotene, fiber, complex carbs",
+    "facilitator": "Nutritionist",
+    "location": "Restaurant",
+    "remote_capable": false,
+    "prep_required": "Shop for fresh ingredients",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 40,
+    "activity_type": "food",
+    "name": "Cruciferous Vegetables",
+    "priority": 3,
+    "frequency": "twice daily",
+    "details": "Broccoli, cauliflower, detox support",
+    "facilitator": "Meal Prep Service",
+    "location": "Kitchen",
+    "remote_capable": false,
+    "prep_required": "Meal prep on Sunday",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 41,
+    "activity_type": "food",
+    "name": "Berry Antioxidant Bowl",
+    "priority": 5,
+    "frequency": "3 times daily",
+    "details": "Blueberries, strawberries, vitamin C",
+    "facilitator": "Chef",
+    "location": "Office",
+    "remote_capable": false,
+    "prep_required": "Defrost proteins overnight",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 15
+  },
+  {
+    "id": 42,
+    "activity_type": "food",
+    "name": "Lean Protein Meal",
+    "priority": 3,
+    "frequency": "3 times daily",
+    "details": "Chicken, fish, or plant protein",
+    "facilitator": "Self",
+    "location": "Office",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 43,
+    "activity_type": "food",
+    "name": "Hydration Boost",
+    "priority": 6,
+    "frequency": "5 times a week",
+    "details": "Electrolyte water, coconut water",
+    "facilitator": "Self",
+    "location": "Restaurant",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 44,
+    "activity_type": "food",
+    "name": "Prebiotic Foods",
+    "priority": 3,
+    "frequency": "3 times daily",
+    "details": "Garlic, onions, gut health support",
+    "facilitator": "Chef",
+    "location": "Restaurant",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 45,
+    "activity_type": "food",
+    "name": "Magnesium-Rich Meal",
+    "priority": 4,
+    "frequency": "weekly",
+    "details": "Dark leafy greens, nuts, seeds",
+    "facilitator": "Meal Prep Service",
+    "location": "Kitchen",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 46,
+    "activity_type": "food",
+    "name": "B-Vitamin Complex Foods",
+    "priority": 4,
+    "frequency": "daily",
+    "details": "Nutritional yeast, eggs, legumes",
+    "facilitator": "Family",
+    "location": "Kitchen",
+    "remote_capable": false,
+    "prep_required": "Meal prep on Sunday",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 47,
+    "activity_type": "food",
+    "name": "Calcium-Rich Meal",
+    "priority": 4,
+    "frequency": "twice daily",
+    "details": "Sesame seeds, almonds, leafy greens",
+    "facilitator": "Chef",
+    "location": "Office",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 48,
+    "activity_type": "food",
+    "name": "Iron Absorption Meal",
+    "priority": 6,
+    "frequency": "weekly",
+    "details": "Vitamin C with iron-rich foods",
+    "facilitator": "Family",
+    "location": "Restaurant",
+    "remote_capable": false,
+    "prep_required": "Shop for fresh ingredients",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 49,
+    "activity_type": "food",
+    "name": "Zinc-Rich Foods",
+    "priority": 5,
+    "frequency": "daily",
+    "details": "Pumpkin seeds, oysters, beans",
+    "facilitator": "Meal Prep Service",
+    "location": "Office",
+    "remote_capable": false,
+    "prep_required": "Shop for fresh ingredients",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 15
+  },
+  {
+    "id": 50,
+    "activity_type": "food",
+    "name": "Selenium Sources",
+    "priority": 5,
+    "frequency": "twice daily",
+    "details": "Brazil nuts, seafood, whole grains",
+    "facilitator": "Meal Prep Service",
+    "location": "Restaurant",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 15
+  },
+  {
+    "id": 51,
+    "activity_type": "food",
+    "name": "Potassium-Rich Foods",
+    "priority": 6,
+    "frequency": "3 times daily",
+    "details": "Bananas, potatoes, spinach",
+    "facilitator": "Family",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 52,
+    "activity_type": "food",
+    "name": "Fiber Power Meal",
+    "priority": 3,
+    "frequency": "weekly",
+    "details": "Beans, lentils, vegetables",
+    "facilitator": "Nutritionist",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 15
+  },
+  {
+    "id": 53,
+    "activity_type": "food",
+    "name": "Healthy Fats Meal",
+    "priority": 1,
+    "frequency": "weekly",
+    "details": "Olive oil, nuts, fatty fish",
+    "facilitator": "Family",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Defrost proteins overnight",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 54,
+    "activity_type": "food",
+    "name": "Low Glycemic Meal",
+    "priority": 4,
+    "frequency": "every meal",
+    "details": "Stable blood sugar, complex carbs",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Wash and chop vegetables",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 55,
+    "activity_type": "food",
+    "name": "Alkalizing Foods",
+    "priority": 4,
+    "frequency": "5 times a week",
+    "details": "pH balance, vegetables, fruits",
+    "facilitator": "Family",
+    "location": "Office",
+    "remote_capable": false,
+    "prep_required": "Defrost proteins overnight",
+    "backup_activities": [
+      "Healthy meal replacement",
+      "Smoothie alternative"
+    ],
+    "skip_adjustments": "Include missed nutrients in next meal",
+    "metrics": [
+      "Calories",
+      "Macros",
+      "Satisfaction",
+      "Energy Level"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 56,
+    "activity_type": "medication",
+    "name": "Vitamin D3 Supplement",
+    "priority": 3,
+    "frequency": "with meals",
+    "details": "Take Vitamin D3 as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 57,
+    "activity_type": "medication",
+    "name": "Omega-3 Fish Oil Supplement",
+    "priority": 8,
+    "frequency": "twice daily",
+    "details": "Take Omega-3 Fish Oil as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 58,
+    "activity_type": "medication",
+    "name": "Multivitamin Supplement",
+    "priority": 7,
+    "frequency": "weekly",
+    "details": "Take Multivitamin as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 59,
+    "activity_type": "medication",
+    "name": "Magnesium Supplement",
+    "priority": 2,
+    "frequency": "twice daily",
+    "details": "Take Magnesium as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 60,
+    "activity_type": "medication",
+    "name": "Probiotics Supplement",
+    "priority": 8,
+    "frequency": "with meals",
+    "details": "Take Probiotics as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 61,
+    "activity_type": "medication",
+    "name": "Vitamin B12 Supplement",
+    "priority": 8,
+    "frequency": "weekly",
+    "details": "Take Vitamin B12 as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 62,
+    "activity_type": "medication",
+    "name": "Calcium + D3 Supplement",
+    "priority": 2,
+    "frequency": "with meals",
+    "details": "Take Calcium + D3 as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 63,
+    "activity_type": "medication",
+    "name": "Coenzyme Q10 Supplement",
+    "priority": 7,
+    "frequency": "twice daily",
+    "details": "Take Coenzyme Q10 as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 64,
+    "activity_type": "medication",
+    "name": "Turmeric Supplement Supplement",
+    "priority": 2,
+    "frequency": "weekly",
+    "details": "Take Turmeric Supplement as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 65,
+    "activity_type": "medication",
+    "name": "Zinc Supplement",
+    "priority": 7,
+    "frequency": "weekly",
+    "details": "Take Zinc as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 66,
+    "activity_type": "medication",
+    "name": "Iron Supplement",
+    "priority": 7,
+    "frequency": "daily",
+    "details": "Take Iron as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 67,
+    "activity_type": "medication",
+    "name": "Vitamin C Supplement",
+    "priority": 2,
+    "frequency": "daily",
+    "details": "Take Vitamin C as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 68,
+    "activity_type": "medication",
+    "name": "Folate Supplement",
+    "priority": 2,
+    "frequency": "weekly",
+    "details": "Take Folate as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 69,
+    "activity_type": "medication",
+    "name": "Biotin Supplement",
+    "priority": 6,
+    "frequency": "weekly",
+    "details": "Take Biotin as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 70,
+    "activity_type": "medication",
+    "name": "Chromium Supplement",
+    "priority": 8,
+    "frequency": "daily",
+    "details": "Take Chromium as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 71,
+    "activity_type": "medication",
+    "name": "Selenium Supplement",
+    "priority": 4,
+    "frequency": "daily",
+    "details": "Take Selenium as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 72,
+    "activity_type": "medication",
+    "name": "Iodine Supplement",
+    "priority": 5,
+    "frequency": "with meals",
+    "details": "Take Iodine as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 73,
+    "activity_type": "medication",
+    "name": "Potassium Supplement",
+    "priority": 5,
+    "frequency": "daily",
+    "details": "Take Potassium as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 74,
+    "activity_type": "medication",
+    "name": "Ashwagandha Supplement",
+    "priority": 7,
+    "frequency": "twice daily",
+    "details": "Take Ashwagandha as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 75,
+    "activity_type": "medication",
+    "name": "Rhodiola Supplement",
+    "priority": 5,
+    "frequency": "weekly",
+    "details": "Take Rhodiola as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 76,
+    "activity_type": "medication",
+    "name": "Melatonin Supplement",
+    "priority": 6,
+    "frequency": "with meals",
+    "details": "Take Melatonin as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 77,
+    "activity_type": "medication",
+    "name": "Digestive Enzymes Supplement",
+    "priority": 6,
+    "frequency": "weekly",
+    "details": "Take Digestive Enzymes as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 78,
+    "activity_type": "medication",
+    "name": "Green Tea Extract Supplement",
+    "priority": 5,
+    "frequency": "weekly",
+    "details": "Take Green Tea Extract as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 79,
+    "activity_type": "medication",
+    "name": "Resveratrol Supplement",
+    "priority": 8,
+    "frequency": "with meals",
+    "details": "Take Resveratrol as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 80,
+    "activity_type": "medication",
+    "name": "Curcumin Supplement",
+    "priority": 5,
+    "frequency": "with meals",
+    "details": "Take Curcumin as directed, monitor for effects",
+    "facilitator": "Self",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Ensure medication supply available",
+    "backup_activities": [
+      "Consult pharmacist for alternatives"
+    ],
+    "skip_adjustments": "Take next dose at regular time",
+    "metrics": [
+      "Adherence",
+      "Side Effects",
+      "Biomarker Changes"
+    ],
+    "duration_minutes": 5
+  },
+  {
+    "id": 81,
+    "activity_type": "therapy",
+    "name": "Sauna Session",
+    "priority": 5,
+    "frequency": "monthly",
+    "details": "Sauna Session session for recovery and wellness",
+    "facilitator": "Certified Practitioner",
+    "location": "Spa",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 82,
+    "activity_type": "therapy",
+    "name": "Ice Bath",
+    "priority": 5,
+    "frequency": "bi-weekly",
+    "details": "Ice Bath session for recovery and wellness",
+    "facilitator": "Licensed Therapist",
+    "location": "Wellness Center",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 83,
+    "activity_type": "therapy",
+    "name": "Massage Therapy",
+    "priority": 8,
+    "frequency": "weekly",
+    "details": "Massage Therapy session for recovery and wellness",
+    "facilitator": "Wellness Center",
+    "location": "Wellness Center",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 84,
+    "activity_type": "therapy",
+    "name": "Acupuncture",
+    "priority": 4,
+    "frequency": "monthly",
+    "details": "Acupuncture session for recovery and wellness",
+    "facilitator": "Certified Practitioner",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 85,
+    "activity_type": "therapy",
+    "name": "Red Light Therapy",
+    "priority": 4,
+    "frequency": "twice a week",
+    "details": "Red Light Therapy session for recovery and wellness",
+    "facilitator": "Licensed Therapist",
+    "location": "Clinic",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 86,
+    "activity_type": "therapy",
+    "name": "Compression Therapy",
+    "priority": 5,
+    "frequency": "bi-weekly",
+    "details": "Compression Therapy session for recovery and wellness",
+    "facilitator": "Wellness Center",
+    "location": "Clinic",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 87,
+    "activity_type": "therapy",
+    "name": "Cryotherapy",
+    "priority": 4,
+    "frequency": "bi-weekly",
+    "details": "Cryotherapy session for recovery and wellness",
+    "facilitator": "Licensed Therapist",
+    "location": "Clinic",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 88,
+    "activity_type": "therapy",
+    "name": "Infrared Sauna",
+    "priority": 9,
+    "frequency": "twice a week",
+    "details": "Infrared Sauna session for recovery and wellness",
+    "facilitator": "Licensed Therapist",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 89,
+    "activity_type": "therapy",
+    "name": "Lymphatic Drainage",
+    "priority": 7,
+    "frequency": "bi-weekly",
+    "details": "Lymphatic Drainage session for recovery and wellness",
+    "facilitator": "Licensed Therapist",
+    "location": "Spa",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 90,
+    "activity_type": "therapy",
+    "name": "Cupping Therapy",
+    "priority": 5,
+    "frequency": "weekly",
+    "details": "Cupping Therapy session for recovery and wellness",
+    "facilitator": "Wellness Center",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 91,
+    "activity_type": "therapy",
+    "name": "Reflexology",
+    "priority": 7,
+    "frequency": "bi-weekly",
+    "details": "Reflexology session for recovery and wellness",
+    "facilitator": "Licensed Therapist",
+    "location": "Wellness Center",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 92,
+    "activity_type": "therapy",
+    "name": "Chiropractic",
+    "priority": 4,
+    "frequency": "bi-weekly",
+    "details": "Chiropractic session for recovery and wellness",
+    "facilitator": "Wellness Center",
+    "location": "Spa",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 93,
+    "activity_type": "therapy",
+    "name": "Osteopathy",
+    "priority": 3,
+    "frequency": "bi-weekly",
+    "details": "Osteopathy session for recovery and wellness",
+    "facilitator": "Certified Practitioner",
+    "location": "Clinic",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 94,
+    "activity_type": "therapy",
+    "name": "Reiki",
+    "priority": 4,
+    "frequency": "weekly",
+    "details": "Reiki session for recovery and wellness",
+    "facilitator": "Wellness Center",
+    "location": "Spa",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 95,
+    "activity_type": "therapy",
+    "name": "Sound Therapy",
+    "priority": 3,
+    "frequency": "bi-weekly",
+    "details": "Sound Therapy session for recovery and wellness",
+    "facilitator": "Wellness Center",
+    "location": "Clinic",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 96,
+    "activity_type": "therapy",
+    "name": "Aromatherapy",
+    "priority": 5,
+    "frequency": "bi-weekly",
+    "details": "Aromatherapy session for recovery and wellness",
+    "facilitator": "Certified Practitioner",
+    "location": "Wellness Center",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 90
+  },
+  {
+    "id": 97,
+    "activity_type": "therapy",
+    "name": "Meditation",
+    "priority": 3,
+    "frequency": "twice a week",
+    "details": "Meditation session for recovery and wellness",
+    "facilitator": "Licensed Therapist",
+    "location": "Home",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 98,
+    "activity_type": "therapy",
+    "name": "Float Tank",
+    "priority": 7,
+    "frequency": "twice a week",
+    "details": "Float Tank session for recovery and wellness",
+    "facilitator": "Certified Practitioner",
+    "location": "Wellness Center",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 99,
+    "activity_type": "therapy",
+    "name": "Hyperbaric Oxygen",
+    "priority": 8,
+    "frequency": "bi-weekly",
+    "details": "Hyperbaric Oxygen session for recovery and wellness",
+    "facilitator": "Wellness Center",
+    "location": "Clinic",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 100,
+    "activity_type": "therapy",
+    "name": "PEMF Therapy",
+    "priority": 7,
+    "frequency": "twice a week",
+    "details": "PEMF Therapy session for recovery and wellness",
+    "facilitator": "Certified Practitioner",
+    "location": "Clinic",
+    "remote_capable": false,
+    "prep_required": "Arrive 10 minutes early, hydrate well",
+    "backup_activities": [
+      "Self-massage",
+      "Hot bath",
+      "Relaxation techniques"
+    ],
+    "skip_adjustments": "Reschedule within same week if possible",
+    "metrics": [
+      "Pain Level",
+      "Stress Level",
+      "Mobility",
+      "Sleep Quality"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 101,
+    "activity_type": "consultation",
+    "name": "Nutritionist Consultation",
+    "priority": 1,
+    "frequency": "quarterly",
+    "details": "Professional nutritionist consultation session",
+    "facilitator": "Licensed Nutritionist Professional",
+    "location": "Hospital",
+    "remote_capable": false,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 102,
+    "activity_type": "consultation",
+    "name": "Personal Training Session",
+    "priority": 5,
+    "frequency": "weekly",
+    "details": "Professional personal training session session",
+    "facilitator": "Licensed Personal Professional",
+    "location": "Online",
+    "remote_capable": true,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 103,
+    "activity_type": "consultation",
+    "name": "Physiotherapy",
+    "priority": 7,
+    "frequency": "quarterly",
+    "details": "Professional physiotherapy session",
+    "facilitator": "Licensed Physiotherapy Professional",
+    "location": "Hospital",
+    "remote_capable": true,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 104,
+    "activity_type": "consultation",
+    "name": "Health Coaching",
+    "priority": 2,
+    "frequency": "quarterly",
+    "details": "Professional health coaching session",
+    "facilitator": "Licensed Health Professional",
+    "location": "Online",
+    "remote_capable": false,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 60
+  },
+  {
+    "id": 105,
+    "activity_type": "consultation",
+    "name": "Mental Health Counseling",
+    "priority": 3,
+    "frequency": "quarterly",
+    "details": "Professional mental health counseling session",
+    "facilitator": "Licensed Mental Professional",
+    "location": "Online",
+    "remote_capable": true,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 106,
+    "activity_type": "consultation",
+    "name": "Cardiologist Checkup",
+    "priority": 2,
+    "frequency": "weekly",
+    "details": "Professional cardiologist checkup session",
+    "facilitator": "Licensed Cardiologist Professional",
+    "location": "Clinic",
+    "remote_capable": true,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 107,
+    "activity_type": "consultation",
+    "name": "Blood Work Review",
+    "priority": 6,
+    "frequency": "monthly",
+    "details": "Professional blood work review session",
+    "facilitator": "Licensed Blood Professional",
+    "location": "Online",
+    "remote_capable": true,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 108,
+    "activity_type": "consultation",
+    "name": "Fitness Assessment",
+    "priority": 3,
+    "frequency": "monthly",
+    "details": "Professional fitness assessment session",
+    "facilitator": "Licensed Fitness Professional",
+    "location": "Hospital",
+    "remote_capable": false,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 109,
+    "activity_type": "consultation",
+    "name": "Body Composition Analysis",
+    "priority": 6,
+    "frequency": "quarterly",
+    "details": "Professional body composition analysis session",
+    "facilitator": "Licensed Body Professional",
+    "location": "Online",
+    "remote_capable": false,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 30
+  },
+  {
+    "id": 110,
+    "activity_type": "consultation",
+    "name": "Stress Management Session",
+    "priority": 1,
+    "frequency": "monthly",
+    "details": "Professional stress management session session",
+    "facilitator": "Licensed Stress Professional",
+    "location": "Clinic",
+    "remote_capable": false,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 111,
+    "activity_type": "consultation",
+    "name": "Sleep Specialist",
+    "priority": 1,
+    "frequency": "quarterly",
+    "details": "Professional sleep specialist session",
+    "facilitator": "Licensed Sleep Professional",
+    "location": "Online",
+    "remote_capable": true,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 112,
+    "activity_type": "consultation",
+    "name": "Endocrinologist Visit",
+    "priority": 5,
+    "frequency": "bi-weekly",
+    "details": "Professional endocrinologist visit session",
+    "facilitator": "Licensed Endocrinologist Professional",
+    "location": "Online",
+    "remote_capable": true,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 45
+  },
+  {
+    "id": 113,
+    "activity_type": "consultation",
+    "name": "Dermatology Checkup",
+    "priority": 4,
+    "frequency": "quarterly",
+    "details": "Professional dermatology checkup session",
+    "facilitator": "Licensed Dermatology Professional",
+    "location": "Clinic",
+    "remote_capable": false,
+    "prep_required": "Prepare questions and health history",
+    "backup_activities": [
+      "Telehealth consultation",
+      "Reschedule priority"
+    ],
+    "skip_adjustments": "Priority reschedule within 48 hours",
+    "metrics": [
+      "Goals Progress",
+      "Action Items",
+      "Satisfaction"
+    ],
+    "duration_minutes": 30
+  }
+]

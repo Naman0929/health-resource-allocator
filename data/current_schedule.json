@@ -1,0 +1,4870 @@
+{
+  "schedule_metadata": {
+    "generated_at": "2026-01-21T14:25:37.406254",
+    "total_activities": 208,
+    "unique_activities": 14,
+    "activity_types_covered": 4,
+    "resources_coordinated": 2,
+    "assignment_compliance": {
+      "resource_coordination": true,
+      "all_activity_types": false,
+      "realistic_scheduling": true
+    }
+  },
+  "resource_utilization": {
+    "equipment": {
+      "eq_gym_access": {
+        "name": "Gym Access",
+        "bookings": 0,
+        "capacity": 50,
+        "available_dates": 68,
+        "utilization_percentage": "0.0%"
+      },
+      "eq_pool_access": {
+        "name": "Pool Access",
+        "bookings": 17,
+        "capacity": 20,
+        "available_dates": 66,
+        "utilization_percentage": "85.0%"
+      },
+      "eq_sauna": {
+        "name": "Sauna",
+        "bookings": 0,
+        "capacity": 8,
+        "available_dates": 68,
+        "utilization_percentage": "0.0%"
+      },
+      "eq_massage_tables": {
+        "name": "Massage Tables",
+        "bookings": 0,
+        "capacity": 4,
+        "available_dates": 59,
+        "utilization_percentage": "0.0%"
+      },
+      "eq_yoga_studio": {
+        "name": "Yoga Studio",
+        "bookings": 0,
+        "capacity": 15,
+        "available_dates": 72,
+        "utilization_percentage": "0.0%"
+      },
+      "eq_personal_training_room": {
+        "name": "Personal Training Room",
+        "bookings": 0,
+        "capacity": 2,
+        "available_dates": 66,
+        "utilization_percentage": "0.0%"
+      },
+      "eq_cycling_equipment": {
+        "name": "Cycling Equipment",
+        "bookings": 0,
+        "capacity": 12,
+        "available_dates": 68,
+        "utilization_percentage": "0.0%"
+      },
+      "eq_weight_training_area": {
+        "name": "Weight Training Area",
+        "bookings": 0,
+        "capacity": 20,
+        "available_dates": 67,
+        "utilization_percentage": "0.0%"
+      }
+    },
+    "specialist": {
+      "spec_dr._smith": {
+        "name": "Dr. Smith - Cardiologist",
+        "bookings": 1,
+        "capacity": 1,
+        "available_dates": 46,
+        "utilization_percentage": "100.0%"
+      },
+      "spec_jane_doe": {
+        "name": "Jane Doe - Personal Trainer",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 43,
+        "utilization_percentage": "0.0%"
+      },
+      "spec_mike_johnson": {
+        "name": "Mike Johnson - Massage Therapist",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 44,
+        "utilization_percentage": "0.0%"
+      },
+      "spec_sarah_wilson": {
+        "name": "Sarah Wilson - Nutritionist",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 42,
+        "utilization_percentage": "0.0%"
+      },
+      "spec_david_brown": {
+        "name": "David Brown - Physiotherapist",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 46,
+        "utilization_percentage": "0.0%"
+      },
+      "spec_lisa_garcia": {
+        "name": "Lisa Garcia - Mental Health Counselor",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 45,
+        "utilization_percentage": "0.0%"
+      },
+      "spec_tom_anderson": {
+        "name": "Tom Anderson - Fitness Coach",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 44,
+        "utilization_percentage": "0.0%"
+      },
+      "spec_maria_rodriguez": {
+        "name": "Maria Rodriguez - Yoga Instructor",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 51,
+        "utilization_percentage": "0.0%"
+      }
+    },
+    "allied_health": {
+      "ah_anna": {
+        "name": "Physical Therapist - Anna",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 66,
+        "utilization_percentage": "0.0%"
+      },
+      "ah_bob": {
+        "name": "Occupational Therapist - Bob",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 65,
+        "utilization_percentage": "0.0%"
+      },
+      "ah_carol": {
+        "name": "Registered Dietitian - Carol",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 68,
+        "utilization_percentage": "0.0%"
+      },
+      "ah_dan": {
+        "name": "Speech Therapist - Dan",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 74,
+        "utilization_percentage": "0.0%"
+      },
+      "ah_eve": {
+        "name": "Exercise Physiologist - Eve",
+        "bookings": 0,
+        "capacity": 1,
+        "available_dates": 67,
+        "utilization_percentage": "0.0%"
+      }
+    }
+  },
+  "daily_summaries": [
+    {
+      "date": "2026-01-21",
+      "day_of_week": "Wednesday",
+      "activity_count": 4,
+      "total_duration_minutes": 165,
+      "total_hours": "2h 45m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-01-23",
+      "day_of_week": "Friday",
+      "activity_count": 4,
+      "total_duration_minutes": 165,
+      "total_hours": "2h 45m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-01-24",
+      "day_of_week": "Saturday",
+      "activity_count": 5,
+      "total_duration_minutes": 75,
+      "total_hours": "1h 15m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food",
+        "medication"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-01-25",
+      "day_of_week": "Sunday",
+      "activity_count": 5,
+      "total_duration_minutes": 180,
+      "total_hours": "3h 0m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-01-26",
+      "day_of_week": "Monday",
+      "activity_count": 4,
+      "total_duration_minutes": 50,
+      "total_hours": "0h 50m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food",
+        "medication"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-01-27",
+      "day_of_week": "Tuesday",
+      "activity_count": 4,
+      "total_duration_minutes": 165,
+      "total_hours": "2h 45m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-01-28",
+      "day_of_week": "Wednesday",
+      "activity_count": 4,
+      "total_duration_minutes": 90,
+      "total_hours": "1h 30m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-01-30",
+      "day_of_week": "Friday",
+      "activity_count": 4,
+      "total_duration_minutes": 165,
+      "total_hours": "2h 45m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-01-31",
+      "day_of_week": "Saturday",
+      "activity_count": 5,
+      "total_duration_minutes": 105,
+      "total_hours": "1h 45m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-01",
+      "day_of_week": "Sunday",
+      "activity_count": 5,
+      "total_duration_minutes": 140,
+      "total_hours": "2h 20m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food",
+        "medication"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-02",
+      "day_of_week": "Monday",
+      "activity_count": 4,
+      "total_duration_minutes": 120,
+      "total_hours": "2h 0m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-02-03",
+      "day_of_week": "Tuesday",
+      "activity_count": 4,
+      "total_duration_minutes": 135,
+      "total_hours": "2h 15m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-04",
+      "day_of_week": "Wednesday",
+      "activity_count": 4,
+      "total_duration_minutes": 90,
+      "total_hours": "1h 30m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-05",
+      "day_of_week": "Thursday",
+      "activity_count": 4,
+      "total_duration_minutes": 165,
+      "total_hours": "2h 45m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-02-06",
+      "day_of_week": "Friday",
+      "activity_count": 4,
+      "total_duration_minutes": 90,
+      "total_hours": "1h 30m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-11",
+      "day_of_week": "Wednesday",
+      "activity_count": 4,
+      "total_duration_minutes": 165,
+      "total_hours": "2h 45m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-02-12",
+      "day_of_week": "Thursday",
+      "activity_count": 4,
+      "total_duration_minutes": 90,
+      "total_hours": "1h 30m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-13",
+      "day_of_week": "Friday",
+      "activity_count": 4,
+      "total_duration_minutes": 135,
+      "total_hours": "2h 15m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-14",
+      "day_of_week": "Saturday",
+      "activity_count": 5,
+      "total_duration_minutes": 125,
+      "total_hours": "2h 5m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food",
+        "medication"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-02-15",
+      "day_of_week": "Sunday",
+      "activity_count": 5,
+      "total_duration_minutes": 150,
+      "total_hours": "2h 30m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-16",
+      "day_of_week": "Monday",
+      "activity_count": 4,
+      "total_duration_minutes": 80,
+      "total_hours": "1h 20m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food",
+        "medication"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-17",
+      "day_of_week": "Tuesday",
+      "activity_count": 4,
+      "total_duration_minutes": 165,
+      "total_hours": "2h 45m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-02-18",
+      "day_of_week": "Wednesday",
+      "activity_count": 4,
+      "total_duration_minutes": 90,
+      "total_hours": "1h 30m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-19",
+      "day_of_week": "Thursday",
+      "activity_count": 4,
+      "total_duration_minutes": 135,
+      "total_hours": "2h 15m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-20",
+      "day_of_week": "Friday",
+      "activity_count": 4,
+      "total_duration_minutes": 120,
+      "total_hours": "2h 0m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-02-21",
+      "day_of_week": "Saturday",
+      "activity_count": 5,
+      "total_duration_minutes": 150,
+      "total_hours": "2h 30m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-22",
+      "day_of_week": "Sunday",
+      "activity_count": 5,
+      "total_duration_minutes": 85,
+      "total_hours": "1h 25m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food",
+        "medication"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-24",
+      "day_of_week": "Tuesday",
+      "activity_count": 4,
+      "total_duration_minutes": 165,
+      "total_hours": "2h 45m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-02-25",
+      "day_of_week": "Wednesday",
+      "activity_count": 4,
+      "total_duration_minutes": 90,
+      "total_hours": "1h 30m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-26",
+      "day_of_week": "Thursday",
+      "activity_count": 4,
+      "total_duration_minutes": 135,
+      "total_hours": "2h 15m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-02-27",
+      "day_of_week": "Friday",
+      "activity_count": 4,
+      "total_duration_minutes": 120,
+      "total_hours": "2h 0m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-02-28",
+      "day_of_week": "Saturday",
+      "activity_count": 5,
+      "total_duration_minutes": 150,
+      "total_hours": "2h 30m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-01",
+      "day_of_week": "Sunday",
+      "activity_count": 5,
+      "total_duration_minutes": 85,
+      "total_hours": "1h 25m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food",
+        "medication"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-02",
+      "day_of_week": "Monday",
+      "activity_count": 4,
+      "total_duration_minutes": 165,
+      "total_hours": "2h 45m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-03-03",
+      "day_of_week": "Tuesday",
+      "activity_count": 4,
+      "total_duration_minutes": 90,
+      "total_hours": "1h 30m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-04",
+      "day_of_week": "Wednesday",
+      "activity_count": 4,
+      "total_duration_minutes": 135,
+      "total_hours": "2h 15m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-05",
+      "day_of_week": "Thursday",
+      "activity_count": 4,
+      "total_duration_minutes": 120,
+      "total_hours": "2h 0m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-06",
+      "day_of_week": "Friday",
+      "activity_count": 4,
+      "total_duration_minutes": 135,
+      "total_hours": "2h 15m",
+      "load_assessment": "\u274c Heavy",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-07",
+      "day_of_week": "Saturday",
+      "activity_count": 5,
+      "total_duration_minutes": 95,
+      "total_hours": "1h 35m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food",
+        "medication"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-08",
+      "day_of_week": "Sunday",
+      "activity_count": 5,
+      "total_duration_minutes": 75,
+      "total_hours": "1h 15m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food",
+        "medication"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-09",
+      "day_of_week": "Monday",
+      "activity_count": 4,
+      "total_duration_minutes": 80,
+      "total_hours": "1h 20m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food",
+        "medication"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-10",
+      "day_of_week": "Tuesday",
+      "activity_count": 4,
+      "total_duration_minutes": 70,
+      "total_hours": "1h 10m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "consultation",
+        "food",
+        "medication"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-03-11",
+      "day_of_week": "Wednesday",
+      "activity_count": 4,
+      "total_duration_minutes": 70,
+      "total_hours": "1h 10m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food",
+        "medication"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-03-12",
+      "day_of_week": "Thursday",
+      "activity_count": 1,
+      "total_duration_minutes": 15,
+      "total_hours": "0h 15m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-13",
+      "day_of_week": "Friday",
+      "activity_count": 2,
+      "total_duration_minutes": 30,
+      "total_hours": "0h 30m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-14",
+      "day_of_week": "Saturday",
+      "activity_count": 1,
+      "total_duration_minutes": 45,
+      "total_hours": "0h 45m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "fitness"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-15",
+      "day_of_week": "Sunday",
+      "activity_count": 3,
+      "total_duration_minutes": 35,
+      "total_hours": "0h 35m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food",
+        "medication"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-16",
+      "day_of_week": "Monday",
+      "activity_count": 1,
+      "total_duration_minutes": 15,
+      "total_hours": "0h 15m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-18",
+      "day_of_week": "Wednesday",
+      "activity_count": 3,
+      "total_duration_minutes": 75,
+      "total_hours": "1h 15m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-03-19",
+      "day_of_week": "Thursday",
+      "activity_count": 1,
+      "total_duration_minutes": 15,
+      "total_hours": "0h 15m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-20",
+      "day_of_week": "Friday",
+      "activity_count": 1,
+      "total_duration_minutes": 15,
+      "total_hours": "0h 15m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-21",
+      "day_of_week": "Saturday",
+      "activity_count": 2,
+      "total_duration_minutes": 60,
+      "total_hours": "1h 0m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-03-22",
+      "day_of_week": "Sunday",
+      "activity_count": 2,
+      "total_duration_minutes": 20,
+      "total_hours": "0h 20m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food",
+        "medication"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-03-30",
+      "day_of_week": "Monday",
+      "activity_count": 3,
+      "total_duration_minutes": 75,
+      "total_hours": "1h 15m",
+      "load_assessment": "\u26a0\ufe0f Moderate",
+      "activity_types": [
+        "fitness",
+        "food"
+      ],
+      "resources_used": 1,
+      "resource_coordination": true
+    },
+    {
+      "date": "2026-04-02",
+      "day_of_week": "Thursday",
+      "activity_count": 2,
+      "total_duration_minutes": 30,
+      "total_hours": "0h 30m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-04-05",
+      "day_of_week": "Sunday",
+      "activity_count": 1,
+      "total_duration_minutes": 15,
+      "total_hours": "0h 15m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    },
+    {
+      "date": "2026-04-08",
+      "day_of_week": "Wednesday",
+      "activity_count": 1,
+      "total_duration_minutes": 15,
+      "total_hours": "0h 15m",
+      "load_assessment": "\u2705 Light",
+      "activity_types": [
+        "food"
+      ],
+      "resources_used": 0,
+      "resource_coordination": false
+    }
+  ],
+  "scheduled_activities": [
+    {
+      "date": "2026-01-21",
+      "day_of_week": "Wednesday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-21",
+      "day_of_week": "Wednesday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-01-21",
+      "day_of_week": "Wednesday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-21",
+      "day_of_week": "Wednesday",
+      "time_slot": "19:30-20:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-23",
+      "day_of_week": "Friday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-23",
+      "day_of_week": "Friday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-23",
+      "day_of_week": "Friday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-23",
+      "day_of_week": "Friday",
+      "time_slot": "19:30-20:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-24",
+      "day_of_week": "Saturday",
+      "time_slot": "08:00-08:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-01-24",
+      "day_of_week": "Saturday",
+      "time_slot": "09:00-09:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-24",
+      "day_of_week": "Saturday",
+      "time_slot": "09:30-09:35",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-24",
+      "day_of_week": "Saturday",
+      "time_slot": "09:45-09:50",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 59,
+        "name": "Magnesium Supplement",
+        "type": "medication",
+        "priority": 3,
+        "frequency": "daily",
+        "details": "Take Magnesium as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-24",
+      "day_of_week": "Saturday",
+      "time_slot": "10:00-10:05",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 65,
+        "name": "Zinc Supplement",
+        "type": "medication",
+        "priority": 3,
+        "frequency": "daily",
+        "details": "Take Zinc as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-25",
+      "day_of_week": "Sunday",
+      "time_slot": "08:00-08:30",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-25",
+      "day_of_week": "Sunday",
+      "time_slot": "08:45-09:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-25",
+      "day_of_week": "Sunday",
+      "time_slot": "09:45-10:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-25",
+      "day_of_week": "Sunday",
+      "time_slot": "10:45-11:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-25",
+      "day_of_week": "Sunday",
+      "time_slot": "11:45-12:00",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-26",
+      "day_of_week": "Monday",
+      "time_slot": "06:30-06:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-26",
+      "day_of_week": "Monday",
+      "time_slot": "07:00-07:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-26",
+      "day_of_week": "Monday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-26",
+      "day_of_week": "Monday",
+      "time_slot": "08:00-08:05",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-27",
+      "day_of_week": "Tuesday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-27",
+      "day_of_week": "Tuesday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-01-27",
+      "day_of_week": "Tuesday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-27",
+      "day_of_week": "Tuesday",
+      "time_slot": "19:30-20:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-28",
+      "day_of_week": "Wednesday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-28",
+      "day_of_week": "Wednesday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-28",
+      "day_of_week": "Wednesday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-28",
+      "day_of_week": "Wednesday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-30",
+      "day_of_week": "Friday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-30",
+      "day_of_week": "Friday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-01-30",
+      "day_of_week": "Friday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-30",
+      "day_of_week": "Friday",
+      "time_slot": "19:30-20:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-31",
+      "day_of_week": "Saturday",
+      "time_slot": "08:00-08:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-31",
+      "day_of_week": "Saturday",
+      "time_slot": "09:00-09:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-31",
+      "day_of_week": "Saturday",
+      "time_slot": "09:30-09:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-31",
+      "day_of_week": "Saturday",
+      "time_slot": "10:00-10:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-01-31",
+      "day_of_week": "Saturday",
+      "time_slot": "10:30-10:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-01",
+      "day_of_week": "Sunday",
+      "time_slot": "08:00-08:30",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-01",
+      "day_of_week": "Sunday",
+      "time_slot": "08:45-09:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-01",
+      "day_of_week": "Sunday",
+      "time_slot": "09:45-10:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-01",
+      "day_of_week": "Sunday",
+      "time_slot": "10:45-11:00",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-01",
+      "day_of_week": "Sunday",
+      "time_slot": "11:15-11:20",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-02",
+      "day_of_week": "Monday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-02-02",
+      "day_of_week": "Monday",
+      "time_slot": "07:30-08:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-02",
+      "day_of_week": "Monday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-02",
+      "day_of_week": "Monday",
+      "time_slot": "19:00-19:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-03",
+      "day_of_week": "Tuesday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-03",
+      "day_of_week": "Tuesday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-03",
+      "day_of_week": "Tuesday",
+      "time_slot": "08:15-08:30",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-03",
+      "day_of_week": "Tuesday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-04",
+      "day_of_week": "Wednesday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-04",
+      "day_of_week": "Wednesday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-04",
+      "day_of_week": "Wednesday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-04",
+      "day_of_week": "Wednesday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-05",
+      "day_of_week": "Thursday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-05",
+      "day_of_week": "Thursday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "day_of_week": "Thursday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-05",
+      "day_of_week": "Thursday",
+      "time_slot": "19:30-20:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-06",
+      "day_of_week": "Friday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-06",
+      "day_of_week": "Friday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-06",
+      "day_of_week": "Friday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-06",
+      "day_of_week": "Friday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-11",
+      "day_of_week": "Wednesday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-11",
+      "day_of_week": "Wednesday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "day_of_week": "Wednesday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-11",
+      "day_of_week": "Wednesday",
+      "time_slot": "19:30-20:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-12",
+      "day_of_week": "Thursday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-12",
+      "day_of_week": "Thursday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-12",
+      "day_of_week": "Thursday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-12",
+      "day_of_week": "Thursday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-13",
+      "day_of_week": "Friday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-13",
+      "day_of_week": "Friday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-13",
+      "day_of_week": "Friday",
+      "time_slot": "08:15-08:30",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-13",
+      "day_of_week": "Friday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-14",
+      "day_of_week": "Saturday",
+      "time_slot": "08:00-08:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-02-14",
+      "day_of_week": "Saturday",
+      "time_slot": "09:00-09:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-14",
+      "day_of_week": "Saturday",
+      "time_slot": "10:00-10:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-14",
+      "day_of_week": "Saturday",
+      "time_slot": "10:30-10:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-14",
+      "day_of_week": "Saturday",
+      "time_slot": "11:00-11:05",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-15",
+      "day_of_week": "Sunday",
+      "time_slot": "08:00-08:30",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-15",
+      "day_of_week": "Sunday",
+      "time_slot": "08:45-09:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-15",
+      "day_of_week": "Sunday",
+      "time_slot": "09:45-10:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-15",
+      "day_of_week": "Sunday",
+      "time_slot": "10:45-11:00",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-15",
+      "day_of_week": "Sunday",
+      "time_slot": "11:15-11:30",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-16",
+      "day_of_week": "Monday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-16",
+      "day_of_week": "Monday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-16",
+      "day_of_week": "Monday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-16",
+      "day_of_week": "Monday",
+      "time_slot": "18:30-18:35",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-17",
+      "day_of_week": "Tuesday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-17",
+      "day_of_week": "Tuesday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "day_of_week": "Tuesday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-17",
+      "day_of_week": "Tuesday",
+      "time_slot": "19:30-20:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-18",
+      "day_of_week": "Wednesday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-18",
+      "day_of_week": "Wednesday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-18",
+      "day_of_week": "Wednesday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-18",
+      "day_of_week": "Wednesday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-19",
+      "day_of_week": "Thursday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-19",
+      "day_of_week": "Thursday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-19",
+      "day_of_week": "Thursday",
+      "time_slot": "08:15-08:30",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-19",
+      "day_of_week": "Thursday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-20",
+      "day_of_week": "Friday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "day_of_week": "Friday",
+      "time_slot": "07:30-08:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-20",
+      "day_of_week": "Friday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-20",
+      "day_of_week": "Friday",
+      "time_slot": "19:00-19:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-21",
+      "day_of_week": "Saturday",
+      "time_slot": "08:00-08:30",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-21",
+      "day_of_week": "Saturday",
+      "time_slot": "08:45-09:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-21",
+      "day_of_week": "Saturday",
+      "time_slot": "09:45-10:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-21",
+      "day_of_week": "Saturday",
+      "time_slot": "10:45-11:00",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-21",
+      "day_of_week": "Saturday",
+      "time_slot": "11:15-11:30",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-22",
+      "day_of_week": "Sunday",
+      "time_slot": "08:00-08:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-22",
+      "day_of_week": "Sunday",
+      "time_slot": "09:00-09:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-22",
+      "day_of_week": "Sunday",
+      "time_slot": "09:30-09:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-22",
+      "day_of_week": "Sunday",
+      "time_slot": "10:00-10:05",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-22",
+      "day_of_week": "Sunday",
+      "time_slot": "10:15-10:20",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 59,
+        "name": "Magnesium Supplement",
+        "type": "medication",
+        "priority": 3,
+        "frequency": "daily",
+        "details": "Take Magnesium as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-24",
+      "day_of_week": "Tuesday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-24",
+      "day_of_week": "Tuesday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "day_of_week": "Tuesday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-24",
+      "day_of_week": "Tuesday",
+      "time_slot": "19:30-20:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-25",
+      "day_of_week": "Wednesday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-25",
+      "day_of_week": "Wednesday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-25",
+      "day_of_week": "Wednesday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-25",
+      "day_of_week": "Wednesday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-26",
+      "day_of_week": "Thursday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-26",
+      "day_of_week": "Thursday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-26",
+      "day_of_week": "Thursday",
+      "time_slot": "08:15-08:30",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-26",
+      "day_of_week": "Thursday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-27",
+      "day_of_week": "Friday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-02-27",
+      "day_of_week": "Friday",
+      "time_slot": "07:30-08:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-27",
+      "day_of_week": "Friday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-27",
+      "day_of_week": "Friday",
+      "time_slot": "19:00-19:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-28",
+      "day_of_week": "Saturday",
+      "time_slot": "08:00-08:30",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-28",
+      "day_of_week": "Saturday",
+      "time_slot": "08:45-09:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-28",
+      "day_of_week": "Saturday",
+      "time_slot": "09:45-10:30",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-28",
+      "day_of_week": "Saturday",
+      "time_slot": "10:45-11:00",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-02-28",
+      "day_of_week": "Saturday",
+      "time_slot": "11:15-11:30",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-01",
+      "day_of_week": "Sunday",
+      "time_slot": "08:00-08:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-01",
+      "day_of_week": "Sunday",
+      "time_slot": "09:00-09:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-01",
+      "day_of_week": "Sunday",
+      "time_slot": "09:30-09:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-01",
+      "day_of_week": "Sunday",
+      "time_slot": "10:00-10:05",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-01",
+      "day_of_week": "Sunday",
+      "time_slot": "10:15-10:20",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 59,
+        "name": "Magnesium Supplement",
+        "type": "medication",
+        "priority": 3,
+        "frequency": "daily",
+        "details": "Take Magnesium as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-02",
+      "day_of_week": "Monday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-02",
+      "day_of_week": "Monday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "day_of_week": "Monday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-02",
+      "day_of_week": "Monday",
+      "time_slot": "19:30-20:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-03",
+      "day_of_week": "Tuesday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-03",
+      "day_of_week": "Tuesday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-03",
+      "day_of_week": "Tuesday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-03",
+      "day_of_week": "Tuesday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-04",
+      "day_of_week": "Wednesday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-04",
+      "day_of_week": "Wednesday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-04",
+      "day_of_week": "Wednesday",
+      "time_slot": "08:15-08:30",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-04",
+      "day_of_week": "Wednesday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-05",
+      "day_of_week": "Thursday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-05",
+      "day_of_week": "Thursday",
+      "time_slot": "07:30-08:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-05",
+      "day_of_week": "Thursday",
+      "time_slot": "18:30-18:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-05",
+      "day_of_week": "Thursday",
+      "time_slot": "19:00-19:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-06",
+      "day_of_week": "Friday",
+      "time_slot": "06:30-07:00",
+      "duration_minutes": 30,
+      "activity": {
+        "id": 3,
+        "name": "Yoga Flow",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "60 min vinyasa, focus on flexibility"
+      },
+      "location": "Studio",
+      "facilitator": "Physical Therapist",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-06",
+      "day_of_week": "Friday",
+      "time_slot": "07:15-08:00",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 6,
+        "name": "Pilates",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "6 times a week",
+        "details": "Core strengthening, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-06",
+      "day_of_week": "Friday",
+      "time_slot": "08:15-08:30",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-06",
+      "day_of_week": "Friday",
+      "time_slot": "18:30-19:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 8,
+        "name": "Stretching Session",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "3 times a week",
+        "details": "30 min full body flexibility"
+      },
+      "location": "Home",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-07",
+      "day_of_week": "Saturday",
+      "time_slot": "08:00-08:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-07",
+      "day_of_week": "Saturday",
+      "time_slot": "09:00-09:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-07",
+      "day_of_week": "Saturday",
+      "time_slot": "09:30-09:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-07",
+      "day_of_week": "Saturday",
+      "time_slot": "10:00-10:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-07",
+      "day_of_week": "Saturday",
+      "time_slot": "10:30-10:35",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-08",
+      "day_of_week": "Sunday",
+      "time_slot": "08:00-08:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-08",
+      "day_of_week": "Sunday",
+      "time_slot": "09:00-09:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 31,
+        "name": "Green Detox Juice",
+        "type": "food",
+        "priority": 1,
+        "frequency": "daily",
+        "details": "Kale, cucumber, celery, lemon"
+      },
+      "location": "Office",
+      "facilitator": "Family",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-08",
+      "day_of_week": "Sunday",
+      "time_slot": "09:30-09:35",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-08",
+      "day_of_week": "Sunday",
+      "time_slot": "09:45-09:50",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 59,
+        "name": "Magnesium Supplement",
+        "type": "medication",
+        "priority": 3,
+        "frequency": "daily",
+        "details": "Take Magnesium as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-08",
+      "day_of_week": "Sunday",
+      "time_slot": "10:00-10:05",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 61,
+        "name": "Vitamin B12 Supplement",
+        "type": "medication",
+        "priority": 3,
+        "frequency": "weekly",
+        "details": "Take Vitamin B12 as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-09",
+      "day_of_week": "Monday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 15,
+        "name": "Dance Fitness",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "4 times a week",
+        "details": "Cardio through dance, 45 minutes"
+      },
+      "location": "Studio",
+      "facilitator": "Personal Trainer",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-09",
+      "day_of_week": "Monday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-09",
+      "day_of_week": "Monday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-09",
+      "day_of_week": "Monday",
+      "time_slot": "18:30-18:35",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-10",
+      "day_of_week": "Tuesday",
+      "time_slot": "06:30-06:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-10",
+      "day_of_week": "Tuesday",
+      "time_slot": "07:00-07:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 110,
+        "name": "Stress Management Session",
+        "type": "consultation",
+        "priority": 1,
+        "frequency": "bi-weekly",
+        "details": "Professional stress management session session"
+      },
+      "location": "Online",
+      "facilitator": "Licensed Stress Professional",
+      "resources_assigned": [
+        "spec_dr._smith"
+      ],
+      "resource_details": [
+        {
+          "id": "spec_dr._smith",
+          "name": "Dr. Smith - Cardiologist",
+          "type": "specialist",
+          "capacity": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-03-10",
+      "day_of_week": "Tuesday",
+      "time_slot": "08:00-08:05",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-10",
+      "day_of_week": "Tuesday",
+      "time_slot": "08:15-08:20",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 59,
+        "name": "Magnesium Supplement",
+        "type": "medication",
+        "priority": 3,
+        "frequency": "daily",
+        "details": "Take Magnesium as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-11",
+      "day_of_week": "Wednesday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-03-11",
+      "day_of_week": "Wednesday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-11",
+      "day_of_week": "Wednesday",
+      "time_slot": "08:00-08:05",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 69,
+        "name": "Biotin Supplement",
+        "type": "medication",
+        "priority": 2,
+        "frequency": "with meals",
+        "details": "Take Biotin as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-11",
+      "day_of_week": "Wednesday",
+      "time_slot": "08:15-08:20",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 59,
+        "name": "Magnesium Supplement",
+        "type": "medication",
+        "priority": 3,
+        "frequency": "daily",
+        "details": "Take Magnesium as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-12",
+      "day_of_week": "Thursday",
+      "time_slot": "06:30-06:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-13",
+      "day_of_week": "Friday",
+      "time_slot": "06:30-06:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-13",
+      "day_of_week": "Friday",
+      "time_slot": "07:00-07:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-14",
+      "day_of_week": "Saturday",
+      "time_slot": "08:00-08:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-15",
+      "day_of_week": "Sunday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-15",
+      "day_of_week": "Sunday",
+      "time_slot": "08:30-08:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-15",
+      "day_of_week": "Sunday",
+      "time_slot": "09:00-09:05",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 61,
+        "name": "Vitamin B12 Supplement",
+        "type": "medication",
+        "priority": 3,
+        "frequency": "weekly",
+        "details": "Take Vitamin B12 as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-16",
+      "day_of_week": "Monday",
+      "time_slot": "06:30-06:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-18",
+      "day_of_week": "Wednesday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "day_of_week": "Wednesday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-18",
+      "day_of_week": "Wednesday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-19",
+      "day_of_week": "Thursday",
+      "time_slot": "06:30-06:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-20",
+      "day_of_week": "Friday",
+      "time_slot": "06:30-06:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 35,
+        "name": "Nuts and Seeds Mix",
+        "type": "food",
+        "priority": 1,
+        "frequency": "5 times a week",
+        "details": "Healthy fats, vitamin E, minerals"
+      },
+      "location": "Kitchen",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-21",
+      "day_of_week": "Saturday",
+      "time_slot": "08:00-08:45",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-03-21",
+      "day_of_week": "Saturday",
+      "time_slot": "09:00-09:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-22",
+      "day_of_week": "Sunday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-22",
+      "day_of_week": "Sunday",
+      "time_slot": "08:30-08:35",
+      "duration_minutes": 5,
+      "activity": {
+        "id": 61,
+        "name": "Vitamin B12 Supplement",
+        "type": "medication",
+        "priority": 3,
+        "frequency": "weekly",
+        "details": "Take Vitamin B12 as directed, monitor for effects"
+      },
+      "location": "Home",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-30",
+      "day_of_week": "Monday",
+      "time_slot": "06:30-07:15",
+      "duration_minutes": 45,
+      "activity": {
+        "id": 4,
+        "name": "Swimming",
+        "type": "fitness",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "45 min laps, technique focus"
+      },
+      "location": "Pool",
+      "facilitator": "Group Instructor",
+      "resources_assigned": [
+        "eq_pool_access"
+      ],
+      "resource_details": [
+        {
+          "id": "eq_pool_access",
+          "name": "Pool Access",
+          "type": "equipment",
+          "capacity": 20
+        }
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "day_of_week": "Monday",
+      "time_slot": "07:30-07:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-03-30",
+      "day_of_week": "Monday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-04-02",
+      "day_of_week": "Thursday",
+      "time_slot": "06:30-06:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 28,
+        "name": "Anti-inflammatory Smoothie",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Berries, spinach, turmeric, ginger"
+      },
+      "location": "Restaurant",
+      "facilitator": "Self",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-04-02",
+      "day_of_week": "Thursday",
+      "time_slot": "07:00-07:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-04-05",
+      "day_of_week": "Sunday",
+      "time_slot": "08:00-08:15",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    },
+    {
+      "date": "2026-04-08",
+      "day_of_week": "Wednesday",
+      "time_slot": "06:30-06:45",
+      "duration_minutes": 15,
+      "activity": {
+        "id": 30,
+        "name": "Wild Salmon Dinner",
+        "type": "food",
+        "priority": 1,
+        "frequency": "twice a week",
+        "details": "Omega-3 rich, with vegetables"
+      },
+      "location": "Office",
+      "facilitator": "Meal Prep Service",
+      "resources_assigned": [],
+      "resource_details": []
+    }
+  ]
+}
