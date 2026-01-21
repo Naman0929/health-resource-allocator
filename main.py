@@ -61,8 +61,10 @@ def initialize_data():
 
 @app.on_event("startup")
 async def startup_event():
-    """Initialize everything on startup"""
-    initialize_data()
+    try:
+        initialize_data()
+    except Exception as e:
+        print("Startup data init failed:", e)
 
 @app.get("/", response_class=HTMLResponse)
 async def root():
@@ -834,5 +836,5 @@ async def get_data_file(filename: str):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error reading file: {str(e)}")
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000, log_level="info")
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="0.0.0.0", port=8000, log_level="info")
